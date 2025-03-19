@@ -61,10 +61,28 @@
 # # bob
 # # tracy
 
-sum=0
+# sum=0
 
-for i in range(101):
-    sum+=i
-print(sum)
+# for i in range(101):
+#     sum+=i
+# print(sum)
 
-# 5050
+# # 5050
+
+
+n=10
+
+while n>0:
+    print(n)
+    n=n-1
+
+# 10
+# 9
+# 8
+# 7
+# 6
+# 5
+# 4
+# 3
+# 2
+# 1
