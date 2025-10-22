@@ -1,101 +1,30 @@
-# print(ord("A"))
-# print(chr(25991))
-# animals =['cat','dog','fish']
-# print(animals)
-# animals.append('elephant')
-# print(animals)
+# a=10
 
-# animals=('cat','dog','fish')
-
-# pul=(1,)
-
-# print(pul)
-# print(type(pul))
-
-# t=(1,2,['A','B'])
-# print(t)
-# t[2][0]='X'
-# t[2][1]='Y'
-# print(t)
-
-# # (1, 2, ['A', 'B'])
-# # (1, 2, ['X', 'Y'])
-
-# age=20
-
-# if age>19:
-#     print('adult')
+# if a==10:
+#   print('a=10')
+# elif a!=10:
+#   print('a!=10')
 # else:
-#     print('teenager')
+#   print('a=?')
+# -----------------------------------------------------------------------
+# name=input('name:')
+# age=int(input('age:'))
 
-# # adult
+# si="我叫%s,我今年%d岁了" % (name,age)
+# s2="我叫{},我今年{}岁了".format(name,age)
+# s3=f"我叫{name},我今年{age}岁了"
 
-# score = "A"
+# print(si)
+# print(s2)
+# print(s3)
 
-# match score:
-#     case "A":
-#         print("85-100")
-#     case "B":
-#         print("70-84")
-#     case "C":
-#         print("60-69")
-#     case "D":
-#         print("0-59")
+# ---------------------------------------------------------------
 
+# while True:
+#   print('cnm')
 
-# age = 20
+i=1
 
-# match age:
-#   case age if age > 19:
-#       print('adult')
-#   case 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18:
-#       print('teenager')
-#   case _:
-#       print('kid')
-
-# name=['mike','bob','tracy']
-
-# for i in name:
-#     print(i)
-# #     mike
-# # bob
-# # tracy
-
-# sum=0
-
-# for i in range(101):
-#     sum+=i
-# print(sum)
-
-# # 5050
-
-
-# n=10
-
-# while n>0:
-#     print(n)
-#     n=n-1
-
-# # 10
-# # 9
-# # 8
-# # 7
-# # 6
-# # 5
-# # 4
-# # 3
-# # 2
-# # 1
-
-d = {'mike': 95, 'bob': 75, 'tracy': 85}
-print(d['mike'])
-# 95
-
-# print('mike' in d)
-# #true
-# print('jack' in d)
-# #false
-
-d.pop('bob')
-print(d)
-# {'mike': 95, 'tracy': 85}
+while i<=100:
+  print(i)
+  i=i+1
