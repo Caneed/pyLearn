@@ -90,3 +90,12 @@
 d = {'mike': 95, 'bob': 75, 'tracy': 85}
 print(d['mike'])
 # 95
+
+# print('mike' in d)
+# #true
+# print('jack' in d)
+# #false
+
+d.pop('bob')
+print(d)
+# {'mike': 95, 'tracy': 85}
